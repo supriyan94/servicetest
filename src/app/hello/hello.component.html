@@ -1,0 +1,6 @@
+<div *ngFor="let menus of _dataService.menuList">
+  <app-child [menu]="menus" [columns]="_dataService.menuColumns"></app-child>
+</div> 
+<div *ngFor="let contents of _dataService.contentList">
+  <app-child [menu]="contents" [columns]="_dataService.contentColumns"></app-child>
+</div> 
