@@ -1,3 +1,7 @@
-<div *ngFor="let col of columns">
-  <p [innerHTML]="menu[col]"></p> 
-</div>
+
+      <!-- <h4><b>id :{{menu.id}} </b></h4>  -->
+      <div *ngIf="!isUser || (isUser && menu.user==='Y')">
+        <div *ngFor="let col of columns">
+          <p [innerHTML]="menu[col]"></p> 
+        </div>
+      </div>

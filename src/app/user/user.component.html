@@ -1,0 +1,3 @@
+<div *ngFor="let blog of _dataService.menuList">
+    <app-child [menu]="blog" [columns]="_dataService.menuColumns" [isUser]="true"></app-child>
+  </div>

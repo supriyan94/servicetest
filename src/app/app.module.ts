@@ -8,6 +8,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { ChildComponent } from './child/child.component';
 import { HelloComponent } from './hello/hello.component';
+import { MenuComponent } from './menu/menu.component';
+import { UserComponent } from './user/user.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { HelloComponent } from './hello/hello.component';
     AppComponent,
     HomeComponent,
     ChildComponent,
-    HelloComponent
+    HelloComponent,
+    MenuComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
